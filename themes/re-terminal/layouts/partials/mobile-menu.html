@@ -20,7 +20,7 @@
         <hr />
         {{ range $.Site.Home.AllTranslations }}
           <li>
-            <a href="{{ .Permalink }}">{{ .Language.Label | default (.Language.Lang | upper)}}</a>
+            <a href="{{ .Permalink }}">{{ .Language.Params.Label | default (.Language.Lang | upper)}}</a>
           </li>
         {{ end }}
       {{ end }}

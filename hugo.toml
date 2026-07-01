@@ -23,8 +23,8 @@ theme = 're-terminal'
 
 [languages]
   [languages.en]
-    label = "English"
   [languages.en.params]
+    label = "English"
     locale = "en-us"
     title = "microsoma"
     subtitle = "C++ Gamedev"
@@ -51,8 +51,8 @@ theme = 're-terminal'
 
 
 [languages.ru]
-    label = "Русский"
   [languages.ru.params]
+    label = "Русский"
     locale = "ru-ru"
     title = "microsoma"
     subtitle = "C++ Gamedev"
