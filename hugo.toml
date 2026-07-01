@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://microsoma0.github.io/'
 locale = 'ru-ru'
 title = 'microsoma | C++ Gamedev'
 theme = 're-terminal'
@@ -19,7 +19,7 @@ theme = 're-terminal'
 [[params.social]]
   icon = "github"
   name = "Github"
-  url = "https://github.com/litarin1"
+  url = "https://github.com/microsoma0"
 
 [languages]
   [languages.en]
