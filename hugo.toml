@@ -1,0 +1,77 @@
+baseURL = 'https://example.org/'
+locale = 'ru-ru'
+title = 'microsoma | C++ Gamedev'
+theme = 're-terminal'
+
+[params]
+  themeColor = "orange"
+
+  contentTypeName = "posts"
+  showLanguageSelector = true
+
+  fullWidthTheme = true
+  Toc = true
+  logo.logoText = "microsoma"
+
+  author = "microsoma"
+  description = "C++ Gamedev (love graphics)"
+
+[[params.social]]
+  icon = "github"
+  name = "Github"
+  url = "https://github.com/litarin1"
+
+[languages]
+  [languages.en]
+    label = "English"
+  [languages.en.params]
+    locale = "en-us"
+    title = "microsoma"
+    subtitle = "C++ Gamedev"
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    missingContentMessage = "Page not found..."
+    missingBackButtonLabel = "Back to home page"
+    minuteReadingTime = "min read"
+    words = "words"
+
+[languages.en.menu]
+  [[languages.en.menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about"
+  [[languages.en.menu.main]]
+    identifier = "showcase"
+    name = "Showcase"
+    url = "/showcase"
+
+
+
+[languages.ru]
+    label = "Русский"
+  [languages.ru.params]
+    locale = "ru-ru"
+    title = "microsoma"
+    subtitle = "C++ Gamedev"
+    menuMore = "Показать ещё"
+    readMore = "Читать ещё"
+    readOtherPosts = "Другие записи"
+    newerPosts = "Новые записи"
+    olderPosts = "Старые записи"
+    missingContentMessage = "Запись не найдена..."
+    missingBackButtonLabel = "Назад на домашнюю страницу"
+    minuteReadingTime = "минут"
+    words = "слов"
+
+[languages.ru.menu]
+  [[languages.ru.menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about"
+  [[languages.ru.menu.main]]
+    identifier = "showcase"
+    name = "Showcase"
+    url = "/showcase"
